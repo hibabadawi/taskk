@@ -1,0 +1,45 @@
+
+.bor{
+    padding: 44px;
+       border: silver solid 10px ;
+   }
+  
+  .section{
+    
+    background-color: #DFE6E9;
+    width: 1300px;
+    height: 470 px ;
+    position: relative;
+    padding: 30px;
+   }
+  .img{
+    margin-left: 35px;
+  }
+  
+  .calls{
+    background-color: #30336B ;
+    width: 1300px;
+    height: 470 px ;
+    
+  }
+  .call ::selection{
+    background-color: goldenrod;
+    }
+    h1 , p{
+        font-size: sans-serif;
+        margin: 30px;
+        
+       
+    }
+    .sec:hover{
+        color:khaki;
+    }
+    p::after {
+        content: "Read More >> " ;
+            }
+            p::first-letter{
+                background-color: black;
+                font-size: 30px;
+                color: white;
+            }
+           
